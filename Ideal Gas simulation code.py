@@ -127,11 +127,11 @@ def init_list_random(N, radius, mass, boxsize):
 
 
 
-particle_number = 300
-boxsize = 200.
+particle_number = 100
+boxsize = 200
 
 # You need a larger tfin and stepnumber to get the equilibrium state. But the computation takes more time.
-tfin = 10
+tfin = 20
 stepnumber = 150
 
 timestep = tfin/stepnumber
